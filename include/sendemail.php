@@ -68,5 +68,5 @@ if( $_SERVER['REQUEST_METHOD'] == 'POST' ) {
 } else {
 	echo '{ "alert": "error", "message": "An unexpected error occured. Please Try Again later." }';
 }
-
+ini_set('display_errors', 1);
 ?>
